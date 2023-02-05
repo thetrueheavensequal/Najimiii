@@ -8,7 +8,7 @@ from Zaid.helpers.queues import get_active_chats
 @Zaid.on(events.NewMessage(pattern="^/activevoice"))
 async def activevc(message):
     mystic = await message.reply(
-        "Getting active voice chats.. Please hold"
+        "Getting active voice chats...Please hold on."
     )
     served_chats = await get_active_chats()
     text = ""
