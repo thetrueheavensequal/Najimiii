@@ -5,7 +5,7 @@ from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 import logging
-from pytgcalls import PyTgCalls
+from pytgcalls import pytgcalls
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
